@@ -19,9 +19,9 @@ resultado = ""
 
 for i in cadena:
     if i.isupper():
-        i.lower()
+        i = i.lower()
         resultado += i
     else:
-        i.upper()
+        i = i.upper()
         resultado += i
 print(resultado)
